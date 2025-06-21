@@ -1,0 +1,125 @@
+.carousel-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.nav-logo {
+  height: 150px;
+  width: 200px;
+}
+
+.login-wrapper {
+  height: 50vh;
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+  padding-right: 80px; 
+  background-color: transparent; 
+  transition: background-color 0.3s ease;
+}
+
+.login-box {
+  
+  border-radius: 10px;
+  text-align: left;
+  background-color: rgba(210, 210, 210, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0,50);
+  min-width: 400px;
+  min-height: 300px;
+  justify-content: flex-start;
+  
+}
+
+.login-box h2 {
+  color: #d31e1e;
+  margin-bottom: 20px;
+  
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2.5px solid rgb(24, 22, 22);
+  border-radius: 5px;
+  background: transparent;
+  color: #d31e1e;
+  font-size: 18px;
+  outline: none; 
+ 
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+  border-color: rgb(58, 57, 57);
+  box-shadow: 0 0 5px rgb(56, 55, 55);
+}
+
+.login-box input::placeholder {
+  color: #d31e1e;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  
+}
+
+.btn {
+  width: 20%;
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  align-items: center;
+ 
+}
+
+.signup-btn {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-right: 20px;
+  
+}
+
+.signup-btn:hover {
+  background: white;
+  color: #d31e1e;
+}
+
+.login-btn {
+  background-color: hsl(0, 68%, 36%);
+  color: white;
+  border: none;
+}
+
+
+.login-btn:hover {
+  background-color: #7a1818;
+}
+
+.input-label{
+  color: rgb(63, 60, 60);
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
